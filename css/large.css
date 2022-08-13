@@ -60,6 +60,13 @@
     .transhero {
         width: 643px;
     }
+    .transhero {
+        width: 643%;
+        padding: 55px 0 0 0;
+        background: rgba(0, 61, 121, 0.9);
+        border-radius: 0px 292px 0px 0px;
+        margin-top: -20px;
+    }
     .hero-socials {
         padding-left: 85px;
     }
@@ -81,19 +88,30 @@
         display: grid;
         grid-template-columns: 3fr 1fr;
     }
-    .footer-socials {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
-        margin-top: 25px;
-    }
     .footer-socials img,
     .footer-socials a {
         width: 65px;
     }
+    .footer-address-display {
+        margin-top: 1px;
+        margin-left: -30px;
+    }
+    .footer-socials {
+        display: grid;
+        grid-row: 1fr 1fr 1fr 1fr;
+        margin-top: 18px;
+        grid-gap: 12px;
+        margin-left: -15px;
+    }
+    .footer-form h3,
+    .footer-address-display h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
     /* <!-- ------------------------------ Thank You------------------------ --> */
     .temple-reservation-form-container {
         width: 800px;
+        margin-left: 75px;
     }
     .reservation-container {
         padding-top: 118px;

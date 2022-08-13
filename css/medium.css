@@ -37,6 +37,7 @@
         padding: 55px 0 0 0;
         background: rgba(0, 61, 121, 0.9);
         border-radius: 0px 292px 0px 0px;
+        margin-top: 110px;
     }
     .hero-socials {
         padding-left: 35px;
@@ -67,14 +68,15 @@
         margin-top: 0px;
     }
     .footer-address-display {
-        margin-bottom: 20px;
-        margin-top: 5px;
+        margin-top: 0;
+        margin-left: -165px;
     }
     .footer-socials {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 10px;
-        margin-top: 25px;
+        margin-top: 18px;
+        grid-gap: 12px;
+        margin-left: -15px;
     }
     .footer-socials img,
     .footer-socials a {
@@ -89,6 +91,10 @@
         padding-top: 118px;
         width: 79%;
         margin: 0 auto;
+    }
+    .temple-reservation-form-container {
+        margin-left: 15px;
+        margin-bottom: 38px;
     }
     /* <!-- ------------------------------ Design------------------------ --> */
     #temple-main {

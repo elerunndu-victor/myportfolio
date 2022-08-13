@@ -29,22 +29,17 @@ menuBtn.addEventListener("click", () => {
 
 function active() {
     switch (document.title) {
-        case "Edorh Veronica Portfolio":
+        case "Elerunndu Victor Portfolio":
             document.querySelector("#home").classList.add("active");
             break;
 
-        case "Edorh Veronica Portfolio - Design":
+        case "Elerunndu Victor Portfolio - Projects":
             document.querySelector("#design").classList.add("active");
             break;
 
-        case "Edorh Veronica Portfolio - Research":
-            document.querySelector("#research").classList.add("active");
-            break;
-
-        case "Edorh Veronica Portfolio - About":
+        case "Elerunndu Victor Portfolio - About":
             document.querySelector("#about").classList.add("active");
             break;
     }
 }
-
 active();
