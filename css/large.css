@@ -79,7 +79,7 @@
         padding-left: 85px;
         margin: -45px 0 0 0;
     }
-    .transhero p {
+    .transhero h3 {
         padding-left: 85px;
     }
     /* <!-- ------------------------------Footer------------------------ --> */
@@ -171,8 +171,9 @@
         padding-left: 85px;
         margin: -45px 0 0 0;
     }
-    .transhero p {
+    .transhero h3 {
         padding-left: 85px;
+        font-size: 20px;
     }
     .about h1,
     h2,
@@ -200,5 +201,15 @@
         background-color: #FBFCFF;
         color: rgba(0, 61, 121, 0.9);
         border-color: #FBFCFF;
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .skill img {
+        width: 150px;
+    }
+    .skill {
+        margin-left: 60px;
     }
 }

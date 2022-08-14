@@ -51,7 +51,7 @@
         padding-left: 35px;
         margin: -45px 0 0 0;
     }
-    .transhero p {
+    .transhero h3 {
         font-size: 14px;
         padding-left: 35px;
         width: 410px;
@@ -163,8 +163,8 @@
         padding-left: 35px;
         margin: -45px 0 0 0;
     }
-    .transhero p {
-        font-size: 14px;
+    .transhero h3 {
+        font-size: 18px;
         padding-left: 35px;
         width: 410px;
         margin: 0;
@@ -198,5 +198,15 @@
         background-color: #FBFCFF;
         color: rgba(0, 61, 121, 0.9);
         border-color: #FBFCFF;
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .skill img {
+        width: 120px;
+    }
+    .skill {
+        margin-left: 20px;
     }
 }
