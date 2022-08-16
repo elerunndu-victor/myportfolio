@@ -193,6 +193,16 @@ label {
     margin: -5px 0 0 0;
 }
 
+.transhero p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 15px;
+    width: 270px;
+    margin: -5px 0 0 0;
+}
+
 
 /* <!-- ------------------------------Footer------------------------ --> */
 
